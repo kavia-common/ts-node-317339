@@ -61,6 +61,9 @@
   ],
   "scripts": {
     "lint": "dprint check",
+    "lint:fix": "dprint fmt",
+    "format": "dprint fmt",
+    "format:check": "dprint check",
     "fmt": "dprint fmt",
     "clean": "rimraf temp dist tsconfig.schema.json tsconfig.schemastore-schema.json tsconfig.tsbuildinfo tests/ts-node-packed.tgz tests/node_modules tests/tmp",
     "rebuild": "yarn clean && yarn build",
